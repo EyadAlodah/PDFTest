@@ -29,7 +29,7 @@ public class ArabicPdfExample2 {
             // Create a cell that contains Arabic text
             PdfPCell cell = new PdfPCell(new Paragraph("السعر الإجمالي", font));
             table.addCell(cell);
-
+                //test
             // Add another cell
             cell = new PdfPCell(new Paragraph("تفاصيل الفاتورة", font));
             table.addCell(cell);
